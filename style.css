@@ -758,3 +758,8 @@ footer a:hover {
     gap: 25px;
   }
 }
+.logo {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
