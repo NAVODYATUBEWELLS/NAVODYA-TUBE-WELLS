@@ -763,3 +763,18 @@ footer a:hover {
     height: 75px;
     object-fit: contain;
 }
+/* Fix logo and image visibility */
+.brand .logo {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    display: block;
+}
+
+.hero-card img,
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
