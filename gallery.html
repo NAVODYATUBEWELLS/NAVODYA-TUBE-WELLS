@@ -1,29 +1,212 @@
-<section class="gallery-section">
-  <div class="container">
-    <h1>Our Gallery</h1>
-    <p>Explore tube well drilling and water solutions.</p><div class="gallery-grid">
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Our Gallery | Navodya Tube Wells</title>
 
-  <div class="gallery-item">
-    <img src="gallery-01.jpg" alt="Tube well drilling">
-    <h3>Tube Well Drilling</h3>
-  </div>
+<meta name="description" content="View tube well drilling, water pump solutions and water services from Navodya Tube Wells in Katugastota, Sri Lanka.">
 
-  <div class="gallery-item">
-    <img src="gallery-02.jpg" alt="Clean water solutions">
-    <h3>Clean Water Solutions</h3>
-  </div>
+<meta name="robots" content="index, follow">
 
-  <div class="gallery-item">
-    <img src="gallery-03.jpg" alt="Water pump installation">
-    <h3>Water Pump Installation</h3>
-  </div>
+<link rel="stylesheet" href="style.css">
 
-  <div class="gallery-item">
-    <img src="gallery-06.jpg" alt="Tube well drilling equipment">
-    <h3>Our Equipment</h3>
-  </div>
+<style>
+    .gallery-section {
+        padding: 60px 20px;
+        background: #f2f8fc;
+        min-height: 80vh;
+    }
+
+    .gallery-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .gallery-heading {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .gallery-heading h1 {
+        color: #073b66;
+        font-size: clamp(32px, 5vw, 48px);
+        margin-bottom: 12px;
+    }
+
+    .gallery-heading p {
+        color: #526577;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 25px;
+    }
+
+    .gallery-item {
+        background: #ffffff;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 7px 22px rgba(0, 40, 80, 0.12);
+        transition: transform 0.3s ease,
+                    box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 13px 30px rgba(0, 40, 80, 0.18);
+    }
+
+    .gallery-item img {
+        display: block;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        background: #e5edf3;
+    }
+
+    .gallery-item h2 {
+        padding: 18px;
+        margin: 0;
+        color: #073b66;
+        font-size: 19px;
+    }
+
+    .gallery-contact {
+        text-align: center;
+        margin-top: 50px;
+        padding: 30px 15px;
+        background: #ffffff;
+        border-radius: 15px;
+    }
+
+    .gallery-contact h2 {
+        color: #073b66;
+        margin-bottom: 12px;
+    }
+
+    .gallery-contact p {
+        color: #526577;
+        margin-bottom: 22px;
+        line-height: 1.7;
+    }
+
+    .gallery-contact a {
+        display: inline-block;
+        padding: 14px 25px;
+        background: #087f5b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background 0.3s ease;
+    }
+
+    .gallery-contact a:hover {
+        background: #056747;
+    }
+
+    @media (max-width: 900px) {
+        .gallery-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 550px) {
+        .gallery-section {
+            padding: 40px 14px;
+        }
+
+        .gallery-grid {
+            grid-template-columns: 1fr;
+            gap: 22px;
+        }
+
+        .gallery-item img {
+            height: 250px;
+        }
+    }
+</style>
+
+</head><body><section class="gallery-section">
+    <div class="gallery-container">    <div class="gallery-heading">
+        <h1>Our Gallery</h1>
+        <p>
+            Discover our tube well drilling and water pump solutions.
+            <br>
+            Reliable Water Starts Underground.
+        </p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="navodya-drilling.jpg"
+                 alt="Tube Well Drilling"
+                 loading="lazy">
+            <h2>🚜 Tube Well Drilling</h2>
+        </div>
+
+        <div class="gallery-item">
+            <img src="navodya-water-pump.jpg"
+                 alt="Water Pump Solutions"
+                 loading="lazy">
+            <h2>💧 Water Pump Solutions</h2>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery-4.jpg"
+                 alt="Tube Well Services"
+                 loading="lazy">
+            <h2>🔧 Tube Well Services</h2>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery-6.jpg"
+                 alt="Water System Solutions"
+                 loading="lazy">
+            <h2>🚰 Water System Solutions</h2>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery-7.jpg"
+                 alt="Drilling Equipment"
+                 loading="lazy">
+            <h2>⚙️ Drilling Equipment</h2>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery-8.jpg"
+                 alt="Water Pump Installation"
+                 loading="lazy">
+            <h2>💦 Water Pump Installation</h2>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery-9.jpg"
+                 alt="Clean Water Solutions"
+                 loading="lazy">
+            <h2>🌊 Clean Water Solutions</h2>
+        </div>
+
+    </div>
+
+    <div class="gallery-contact">
+        <h2>Need a Reliable Water Solution?</h2>
+        <p>
+            Contact Navodya Tube Wells for tube well drilling
+            and water pump inquiries in Katugastota and surrounding areas.
+        </p>
+
+        <a href="https://wa.me/94713042732"
+           target="_blank"
+           rel="noopener noreferrer">
+            💬 Contact Us on WhatsApp
+        </a>
+    </div>
 
 </div>
 
-  </div>
-</section>
+</section></body>
+</html>
