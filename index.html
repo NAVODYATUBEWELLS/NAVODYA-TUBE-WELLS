@@ -1,1001 +1,944 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Navodya Tube Wells | Tube Well Drilling in Katugastota, Kandy</title>
 
-    <title>Navodya Tube Wells | Tube Well Drilling in Kandy</title>
+<meta name="description" content="Navodya Tube Wells offers tube well drilling, water pump installation and water system solutions in Katugastota, Kandy, Sri Lanka. Contact us for inquiries.">
 
-    <meta name="description" content="Navodya Tube Wells provides tube well drilling, water pump installation, and water system services in Katugastota, Kandy, Sri Lanka. Contact us for inquiries.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#063b52">
 
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#063b52">
+<link rel="canonical" href="https://navodyatubewells.github.io/NAVODYA-TUBE-WELLS/">
+<link rel="icon" href="./logo.png" type="image/png">
 
-    <link rel="canonical" href="https://navodyatubewells.github.io/NAVODYA-TUBE-WELLS/">
+<link rel="stylesheet" href="./style.css">
 
-    <link rel="icon" href="logo.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    html {
+        scroll-behavior: smooth;
+    }
 
-        html {
-            scroll-behavior: smooth;
-        }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #18313d;
+        background: #f5f9fb;
+        line-height: 1.6;
+    }
 
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            color: #18313d;
-            background: #f5f9fb;
-            line-height: 1.6;
-        }
+    a {
+        text-decoration: none;
+    }
 
-        a {
-            text-decoration: none;
-        }
+    img {
+        display: block;
+        max-width: 100%;
+    }
 
-        img {
-            max-width: 100%;
+    .container {
+        width: min(1150px, 92%);
+        margin: auto;
+    }
+
+    /* HEADER */
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: white;
+        box-shadow: 0 3px 18px rgba(0, 0, 0, 0.07);
+    }
+
+    .navbar {
+        min-height: 82px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #063b52;
+        font-weight: 800;
+        font-size: 19px;
+    }
+
+    .brand img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;
+    }
+
+    .brand small {
+        display: block;
+        color: #087e8b;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .nav-links a {
+        color: #18313d;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .nav-links a:hover {
+        color: #0796a5;
+    }
+
+    .nav-links .contact-link {
+        background: #087e8b;
+        color: white;
+        padding: 10px 16px;
+        border-radius: 7px;
+    }
+
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 28px;
+        cursor: pointer;
+        color: #063b52;
+    }
+
+    /* HERO */
+
+    .hero {
+        position: relative;
+        background:
+            linear-gradient(90deg, rgba(3, 35, 51, 0.91), rgba(3, 45, 61, 0.58)),
+            url("./navodya-drilling-1.jpg") center/cover no-repeat;
+        color: white;
+        padding: 100px 0;
+    }
+
+    .hero-content {
+        max-width: 720px;
+    }
+
+    .hero-label {
+        display: inline-block;
+        padding: 8px 14px;
+        border: 1px solid rgba(255,255,255,0.4);
+        border-radius: 30px;
+        font-size: 13px;
+        margin-bottom: 22px;
+        color: #b8f3f4;
+    }
+
+    .hero h1 {
+        font-size: clamp(36px, 6vw, 62px);
+        line-height: 1.12;
+        margin-bottom: 23px;
+        letter-spacing: -1px;
+    }
+
+    .hero h1 span {
+        color: #50d5d2;
+    }
+
+    .hero p {
+        font-size: 17px;
+        line-height: 1.8;
+        color: #e0edf1;
+        max-width: 610px;
+        margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 13px 22px;
+        border-radius: 7px;
+        font-weight: 700;
+        transition: 0.25s;
+    }
+
+    .btn-primary {
+        background: #11a5ad;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background: #07818b;
+        transform: translateY(-2px);
+    }
+
+    .btn-outline {
+        border: 1px solid white;
+        color: white;
+    }
+
+    .btn-outline:hover {
+        background: white;
+        color: #063b52;
+    }
+
+    /* TRUST BAR */
+
+    .trust-bar {
+        background: white;
+        padding: 23px 0;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+    }
+
+    .trust-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        text-align: center;
+    }
+
+    .trust-item strong {
+        display: block;
+        color: #063b52;
+        font-size: 16px;
+    }
+
+    .trust-item span {
+        color: #6b7d86;
+        font-size: 13px;
+    }
+
+    /* GENERAL SECTIONS */
+
+    section {
+        padding: 75px 0;
+        scroll-margin-top: 90px;
+    }
+
+    .section-heading {
+        text-align: center;
+        max-width: 680px;
+        margin: 0 auto 42px;
+    }
+
+    .eyebrow {
+        color: #078c98;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+
+    .section-heading h2,
+    .about-content h2 {
+        font-size: clamp(28px, 4vw, 40px);
+        line-height: 1.2;
+        color: #063b52;
+        margin: 12px 0;
+    }
+
+    .section-heading p,
+    .about-content p {
+        color: #657781;
+        font-size: 15px;
+    }
+
+    /* SERVICES */
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .service-card {
+        background: white;
+        padding: 30px 25px;
+        border-radius: 13px;
+        border: 1px solid #e7eff2;
+        box-shadow: 0 8px 28px rgba(4, 48, 65, 0.05);
+        transition: 0.25s;
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(4, 48, 65, 0.10);
+    }
+
+    .service-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+        background: #e4f7f7;
+        display: grid;
+        place-items: center;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .service-card h3 {
+        color: #063b52;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .service-card p {
+        color: #657781;
+        font-size: 14px;
+    }
+
+    /* GALLERY */
+
+    .gallery-section {
+        background: #eaf4f7;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+    }
+
+    .gallery-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(3, 40, 56, 0.10);
+    }
+
+    .gallery-card img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        background: #dce8ec;
+        transition: transform 0.4s;
+    }
+
+    .gallery-card:hover img {
+        transform: scale(1.035);
+    }
+
+    .gallery-caption {
+        padding: 20px 23px;
+    }
+
+    .gallery-caption h3 {
+        color: #063b52;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .gallery-caption p {
+        color: #657781;
+        font-size: 14px;
+    }
+
+    /* ABOUT */
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        align-items: center;
+    }
+
+    .about-content h2 {
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        margin-bottom: 17px;
+    }
+
+    .about-list {
+        list-style: none;
+        margin: 22px 0;
+    }
+
+    .about-list li {
+        margin-bottom: 12px;
+        color: #254653;
+        font-weight: 600;
+    }
+
+    .about-list li::before {
+        content: "✓";
+        color: #0796a5;
+        font-weight: 900;
+        margin-right: 10px;
+    }
+
+    .about-visual {
+        background: linear-gradient(135deg, #d6f1f1, #e5eff9);
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    .about-visual img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    /* CONTACT CTA */
+
+    .cta {
+        background: linear-gradient(120deg, #063b52, #087e8b);
+        color: white;
+        text-align: center;
+    }
+
+    .cta h2 {
+        font-size: clamp(29px, 4vw, 42px);
+        margin-bottom: 15px;
+    }
+
+    .cta p {
+        color: #e1f4f6;
+        max-width: 620px;
+        margin: 0 auto 27px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        background: #042b3b;
+        color: white;
+        padding: 40px 0 20px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 35px;
+        margin-bottom: 30px;
+    }
+
+    .footer-brand {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    footer p,
+    footer li {
+        color: #c2d5dc;
+        font-size: 14px;
+    }
+
+    footer h3 {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+
+    footer ul {
+        list-style: none;
+    }
+
+    footer li {
+        margin-bottom: 9px;
+    }
+
+    footer a {
+        color: #c2d5dc;
+    }
+
+    footer a:hover {
+        color: #50d5d2;
+    }
+
+    .copyright {
+        border-top: 1px solid rgba(255,255,255,0.15);
+        padding-top: 20px;
+        text-align: center;
+        color: #afc5cd;
+        font-size: 12px;
+    }
+
+    /* FLOATING WHATSAPP */
+
+    .whatsapp-float {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        background: #20b968;
+        color: white;
+        padding: 13px 18px;
+        border-radius: 50px;
+        font-weight: 800;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+
+    .whatsapp-float:hover {
+        background: #169b54;
+    }
+
+    /* TABLET */
+
+    @media (max-width: 850px) {
+        .menu-toggle {
             display: block;
-        }
-
-        .container {
-            width: min(1150px, 92%);
-            margin: auto;
-        }
-
-        /* HEADER */
-
-        header {
-            background: #ffffff;
-            box-shadow: 0 3px 18px rgba(0, 0, 0, 0.07);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .navbar {
-            min-height: 82px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            color: #063b52;
-            font-weight: 800;
-            font-size: 19px;
-        }
-
-        .brand img {
-            width: 58px;
-            height: 58px;
-            object-fit: contain;
-        }
-
-        .brand small {
-            display: block;
-            color: #087e8b;
-            font-size: 11px;
-            letter-spacing: 2px;
         }
 
         .nav-links {
+            display: none;
+            position: absolute;
+            top: 82px;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 20px 5%;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0;
+        }
+
+        .nav-links.active {
             display: flex;
-            align-items: center;
-            gap: 23px;
         }
 
         .nav-links a {
-            color: #18313d;
-            font-size: 14px;
-            font-weight: 700;
-        }
-
-        .nav-links a:hover {
-            color: #0796a5;
+            padding: 12px 0;
         }
 
         .nav-links .contact-link {
-            background: #087e8b;
-            color: white;
-            padding: 11px 17px;
-            border-radius: 7px;
+            text-align: center;
+            margin-top: 8px;
         }
-
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 29px;
-            cursor: pointer;
-            color: #063b52;
-        }
-
-        /* HERO */
 
         .hero {
-            background:
-                linear-gradient(90deg, rgba(3, 35, 51, 0.94), rgba(3, 45, 61, 0.72)),
-                url("navodya-drilling.jpg") center/cover no-repeat;
-            color: white;
-            padding: 90px 0;
-        }
-
-        .hero-content {
-            max-width: 720px;
-        }
-
-        .hero-label {
-            display: inline-block;
-            padding: 8px 14px;
-            border: 1px solid rgba(255,255,255,0.35);
-            border-radius: 30px;
-            font-size: 13px;
-            margin-bottom: 22px;
-            color: #b8f3f4;
-        }
-
-        .hero h1 {
-            font-size: clamp(36px, 6vw, 62px);
-            line-height: 1.12;
-            margin-bottom: 23px;
-            letter-spacing: -1.5px;
-        }
-
-        .hero h1 span {
-            color: #50d5d2;
-        }
-
-        .hero p {
-            font-size: 17px;
-            line-height: 1.8;
-            color: #e0edf1;
-            max-width: 610px;
-            margin-bottom: 30px;
-        }
-
-        .hero-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 14px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 14px 23px;
-            border-radius: 7px;
-            font-weight: 700;
-            transition: 0.25s;
-        }
-
-        .btn-primary {
-            background: #11a5ad;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #07818b;
-            transform: translateY(-2px);
-        }
-
-        .btn-outline {
-            border: 1px solid white;
-            color: white;
-        }
-
-        .btn-outline:hover {
-            background: white;
-            color: #063b52;
-        }
-
-        /* TRUST BAR */
-
-        .trust-bar {
-            background: white;
-            padding: 23px 0;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.04);
-        }
-
-        .trust-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            text-align: center;
-        }
-
-        .trust-item strong {
-            display: block;
-            color: #063b52;
-            font-size: 16px;
-        }
-
-        .trust-item span {
-            color: #6b7d86;
-            font-size: 13px;
-        }
-
-        /* SECTION COMMON */
-
-        section {
             padding: 75px 0;
         }
 
-        .section-heading {
-            text-align: center;
-            max-width: 680px;
-            margin: 0 auto 42px;
-        }
-
-        .section-heading .eyebrow {
-            color: #078c98;
-            text-transform: uppercase;
-            font-size: 12px;
-            font-weight: 800;
-            letter-spacing: 2px;
-        }
-
-        .section-heading h2 {
-            font-size: clamp(28px, 4vw, 40px);
-            line-height: 1.2;
-            color: #063b52;
-            margin: 12px 0;
-        }
-
-        .section-heading p {
-            color: #657781;
-            font-size: 15px;
-        }
-
-        /* SERVICES */
-
         .services-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
+            grid-template-columns: repeat(2, 1fr);
         }
-
-        .service-card {
-            background: white;
-            padding: 30px 25px;
-            border-radius: 13px;
-            border: 1px solid #e7eff2;
-            box-shadow: 0 8px 28px rgba(4, 48, 65, 0.05);
-            transition: 0.25s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(4, 48, 65, 0.10);
-        }
-
-        .service-icon {
-            width: 56px;
-            height: 56px;
-            border-radius: 12px;
-            background: #e4f7f7;
-            display: grid;
-            place-items: center;
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
-
-        .service-card h3 {
-            color: #063b52;
-            font-size: 20px;
-            margin-bottom: 12px;
-        }
-
-        .service-card p {
-            color: #657781;
-            font-size: 14px;
-        }
-
-        /* PROJECT PHOTOS */
-
-        .gallery-section {
-            background: #eaf4f7;
-        }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 25px;
-        }
-
-        .gallery-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(3, 40, 56, 0.10);
-        }
-
-        .gallery-card img {
-            width: 100%;
-            height: 320px;
-            object-fit: cover;
-            background: #dce8ec;
-            transition: transform 0.4s;
-        }
-
-        .gallery-card:hover img {
-            transform: scale(1.035);
-        }
-
-        .gallery-caption {
-            padding: 20px 23px;
-        }
-
-        .gallery-caption h3 {
-            color: #063b52;
-            font-size: 20px;
-            margin-bottom: 5px;
-        }
-
-        .gallery-caption p {
-            color: #657781;
-            font-size: 14px;
-        }
-
-        /* ABOUT */
 
         .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 45px;
-            align-items: center;
-        }
-
-        .about-content h2 {
-            font-size: clamp(29px, 4vw, 40px);
-            color: #063b52;
-            line-height: 1.2;
-            margin: 12px 0 20px;
-        }
-
-        .about-content p {
-            color: #657781;
-            margin-bottom: 17px;
-        }
-
-        .about-list {
-            list-style: none;
-            margin: 22px 0;
-        }
-
-        .about-list li {
-            margin-bottom: 12px;
-            color: #254653;
-            font-weight: 600;
-        }
-
-        .about-list li::before {
-            content: "✓";
-            color: #0796a5;
-            font-weight: 900;
-            margin-right: 10px;
-        }
-
-        .about-visual {
-            background: linear-gradient(135deg, #d6f1f1, #e5eff9);
-            padding: 35px;
-            border-radius: 18px;
-            text-align: center;
-        }
-
-        .about-visual img {
-            width: 100%;
-            max-height: 360px;
-            object-fit: cover;
-            border-radius: 12px;
-        }
-
-        /* CONTACT CTA */
-
-        .cta {
-            background: linear-gradient(120deg, #063b52, #087e8b);
-            color: white;
-            text-align: center;
-        }
-
-        .cta h2 {
-            font-size: clamp(29px, 4vw, 42px);
-            margin-bottom: 15px;
-        }
-
-        .cta p {
-            color: #e1f4f6;
-            max-width: 620px;
-            margin: 0 auto 27px;
-        }
-
-        .cta .btn-outline:hover {
-            color: #063b52;
-        }
-
-        /* FOOTER */
-
-        footer {
-            background: #042b3b;
-            color: white;
-            padding: 40px 0 20px;
+            grid-template-columns: 1fr;
         }
 
         .footer-grid {
-            display: grid;
-            grid-template-columns: 1.5fr 1fr 1fr;
-            gap: 35px;
-            margin-bottom: 30px;
+            grid-template-columns: 1fr 1fr;
         }
+    }
 
-        .footer-brand {
-            font-size: 20px;
-            font-weight: 800;
-            margin-bottom: 12px;
-        }
+    /* MOBILE */
 
-        footer p,
-        footer li {
-            color: #c2d5dc;
-            font-size: 14px;
-        }
-
-        footer h3 {
-            margin-bottom: 14px;
+    @media (max-width: 560px) {
+        .brand {
             font-size: 16px;
+            gap: 8px;
         }
 
-        footer ul {
-            list-style: none;
+        .brand img {
+            width: 47px;
+            height: 47px;
         }
 
-        footer li {
-            margin-bottom: 9px;
+        .hero {
+            padding: 65px 0;
         }
 
-        footer a {
-            color: #c2d5dc;
+        .hero h1 {
+            font-size: 39px;
         }
 
-        footer a:hover {
-            color: #50d5d2;
+        .hero p {
+            font-size: 15px;
         }
 
-        .copyright {
-            border-top: 1px solid rgba(255,255,255,0.15);
-            padding-top: 20px;
-            text-align: center;
-            color: #afc5cd;
-            font-size: 12px;
+        section {
+            padding: 55px 0;
         }
 
-        /* WHATSAPP FLOAT BUTTON */
+        .trust-grid {
+            grid-template-columns: 1fr;
+            gap: 17px;
+        }
+
+        .services-grid,
+        .gallery-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .gallery-card img {
+            height: 245px;
+        }
+
+        .about-visual {
+            padding: 12px;
+        }
+
+        .about-visual img {
+            height: 245px;
+        }
+
+        .footer-grid {
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
 
         .whatsapp-float {
-            position: fixed;
-            right: 20px;
-            bottom: 20px;
-            z-index: 999;
-            background: #20b968;
-            color: white;
-            padding: 13px 18px;
-            border-radius: 50px;
-            font-weight: 800;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            right: 12px;
+            bottom: 12px;
+            font-size: 13px;
+            padding: 12px 15px;
         }
-
-        .whatsapp-float:hover {
-            background: #169b54;
-        }
-
-        /* MOBILE */
-
-        @media (max-width: 850px) {
-            .menu-toggle {
-                display: block;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 82px;
-                left: 0;
-                right: 0;
-                background: white;
-                padding: 20px 5%;
-                box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-                flex-direction: column;
-                align-items: stretch;
-                gap: 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links a {
-                padding: 12px 0;
-            }
-
-            .nav-links .contact-link {
-                text-align: center;
-                margin-top: 8px;
-            }
-
-            .hero {
-                padding: 75px 0;
-                background-position: center;
-            }
-
-            .services-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .about-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 560px) {
-            .brand {
-                font-size: 16px;
-                gap: 8px;
-            }
-
-            .brand img {
-                width: 47px;
-                height: 47px;
-            }
-
-            .hero {
-                padding: 65px 0;
-            }
-
-            .hero h1 {
-                font-size: 39px;
-            }
-
-            .hero p {
-                font-size: 15px;
-            }
-
-            section {
-                padding: 55px 0;
-            }
-
-            .trust-grid {
-                grid-template-columns: 1fr;
-                gap: 17px;
-            }
-
-            .services-grid,
-            .gallery-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery-card img {
-                height: 245px;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-                gap: 25px;
-            }
-
-            .about-visual {
-                padding: 15px;
-            }
-
-            .whatsapp-float {
-                right: 12px;
-                bottom: 12px;
-                font-size: 13px;
-                padding: 12px 15px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <!-- HEADER -->
-    <header>
-        <div class="container navbar">
-
-            <a href="index.html" class="brand">
-                <img src="logo.png" alt="Navodya Tube Wells Logo">
-                <span>
-                    NAVODYA
-                    <small>TUBE WELLS</small>
-                </span>
-            </a>
-
-            <button class="menu-toggle"
-                    id="menuToggle"
-                    aria-label="Open navigation menu"
-                    aria-expanded="false">
-                ☰
-            </button>
-
-            <nav class="nav-links" id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="services.html">Services</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact.html" class="contact-link">Contact Us</a>
-            </nav>
-
-        </div>
-    </header>
-
-
-    <main>
-
-        <!-- HERO SECTION -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-
-                    <span class="hero-label">
-                        💧 WATER SOLUTIONS YOU CAN TRUST
-                    </span>
-
-                    <h1>
-                        Reliable Water Starts
-                        <span>Underground.</span>
-                    </h1>
-
-                    <p>
-                        Tube well drilling, water pump installation and
-                        water system services for homes, farms and
-                        businesses in Katugastota and surrounding areas.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="https://wa.me/94713042732"
-                           class="btn btn-primary"
-                           target="_blank"
-                           rel="noopener">
-                            💬 WhatsApp Us
-                        </a>
-
-                        <a href="tel:+94766787882"
-                           class="btn btn-outline">
-                            ☎ Call Now
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- TRUST BAR -->
-        <div class="trust-bar">
-            <div class="container trust-grid">
-
-                <div class="trust-item">
-                    <strong>💧 Water Solutions</strong>
-                    <span>Drilling and water systems</span>
-                </div>
-
-                <div class="trust-item">
-                    <strong>🔧 Pump Services</strong>
-                    <span>Installation and support</span>
-                </div>
-
-                <div class="trust-item">
-                    <strong>📍 Katugastota, Kandy</strong>
-                    <span>Serving surrounding areas</span>
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- SERVICES SECTION -->
-        <section id="services">
-            <div class="container">
-
-                <div class="section-heading">
-                    <span class="eyebrow">WHAT WE DO</span>
-                    <h2>Complete Tube Well Services</h2>
-                    <p>
-                        Explore our tube well drilling, pump installation
-                        and water system services.
-                    </p>
-                </div>
-
-                <div class="services-grid">
-
-                    <article class="service-card">
-                        <div class="service-icon">🚜</div>
-                        <h3>Tube Well Drilling</h3>
-                        <p>
-                            Tube well drilling solutions for residential,
-                            agricultural and other water supply needs.
-                        </p>
-                    </article>
-
-                    <article class="service-card">
-                        <div class="service-icon">💧</div>
-                        <h3>Water Pump Installation</h3>
-                        <p>
-                            Water pump installation solutions designed
-                            around your water supply requirements.
-                        </p>
-                    </article>
-
-                    <article class="service-card">
-                        <div class="service-icon">🔧</div>
-                        <h3>Water System Services</h3>
-                        <p>
-                            Assistance with water system setup,
-                            maintenance inquiries and pump-related needs.
-                        </p>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- MAIN PROJECT PHOTOS -->
-        <section class="gallery-section" id="projects">
-            <div class="container">
-
-                <div class="section-heading">
-                    <span class="eyebrow">OUR WORK</span>
-                    <h2>Drilling & Water Solutions</h2>
-                    <p>
-                        Explore tube well drilling and water pump images
-                        from Navodya Tube Wells.
-                    </p>
-                </div>
-
-                <div class="gallery-grid">
-
-                    <article class="gallery-card">
-                        <img
-                            src="navodya-drilling.jpg"
-                            alt="Tube well drilling equipment"
-                            loading="lazy"
-                            onerror="this.onerror=null;this.src='https://placehold.co/800x500/eaf4f7/063b52?text=Tube+Well+Drilling';">
-
-                        <div class="gallery-caption">
-                            <h3>Tube Well Drilling</h3>
-                            <p>
-                                Drilling solutions for your water supply
-                                requirements.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="gallery-card">
-                        <img
-                            src="navodya-water-pump.jpg"
-                            alt="Water pump installation equipment"
-                            loading="lazy"
-                            onerror="this.onerror=null;this.src='https://placehold.co/800x500/eaf4f7/063b52?text=Water+Pump+Installation';">
-
-                        <div class="gallery-caption">
-                            <h3>Water Pump Solutions</h3>
-                            <p>
-                                Water pump equipment and installation
-                                solutions for your needs.
-                            </p>
-                        </div>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- ABOUT SECTION -->
-        <section id="about">
-            <div class="container about-grid">
-
-                <div class="about-content">
-
-                    <span class="eyebrow">ABOUT NAVODYA</span>
-
-                    <h2>Your Water Solution Starts Here</h2>
-
-                    <p>
-                        Navodya Tube Wells provides tube well drilling
-                        and water pump solutions in Katugastota, Kandy,
-                        Sri Lanka.
-                    </p>
-
-                    <p>
-                        Whether you are planning a new water supply
-                        project or looking for pump installation
-                        assistance, contact us to discuss your
-                        requirements.
-                    </p>
-
-                    <ul class="about-list">
-                        <li>Tube well drilling inquiries</li>
-                        <li>Water pump installation inquiries</li>
-                        <li>Water system solutions</li>
-                        <li>Service inquiries in surrounding areas</li>
-                    </ul>
-
-                    <a href="about.html" class="btn btn-primary">
-                        Learn More About Us →
-                    </a>
-
-                </div>
-
-                <div class="about-visual">
-                    <img
-                        src="navodya-drilling.jpg"
-                        alt="Navodya Tube Wells drilling equipment"
-                        loading="lazy"
-                        onerror="this.onerror=null;this.src='https://placehold.co/800x500/eaf4f7/063b52?text=Navodya+Tube+Wells';">
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- CONTACT CTA -->
-        <section class="cta">
-            <div class="container">
-
-                <h2>Looking for a Water Solution?</h2>
-
-                <p>
-                    Contact Navodya Tube Wells to discuss your tube well
-                    drilling or water pump installation requirements.
-                </p>
-
-                <div class="hero-buttons" style="justify-content:center;">
-
-                    <a href="https://wa.me/94713042732"
-                       class="btn btn-primary"
-                       target="_blank"
-                       rel="noopener">
-                        💬 Chat on WhatsApp
-                    </a>
-
-                    <a href="contact.html"
-                       class="btn btn-outline">
-                        Contact Us →
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-
-            <div class="footer-grid">
-
-                <div>
-                    <div class="footer-brand">NAVODYA TUBE WELLS</div>
-
-                    <p>
-                        Tube well drilling, water pump installation
-                        and water system services in Katugastota,
-                        Kandy, Sri Lanka.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Quick Links</h3>
-
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>Contact Information</h3>
-
-                    <ul>
-                        <li>📍 Katugastota, Kandy</li>
-
-                        <li>
-                            ☎ <a href="tel:+94766787882">
-                                076 678 7882
-                            </a>
-                        </li>
-
-                        <li>
-                            ☎ <a href="tel:+94779252415">
-                                077 925 2415
-                            </a>
-                        </li>
-
-                        <li>
-                            WhatsApp:
-                            <a href="https://wa.me/94713042732"
-                               target="_blank"
-                               rel="noopener">
-                                071 304 2732
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://wa.me/94783042732"
-                               target="_blank"
-                               rel="noopener">
-                                WhatsApp: 078 304 2732
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="copyright">
-                © <span id="currentYear"></span>
-                Navodya Tube Wells. All rights reserved.
-            </div>
-
-        </div>
-    </footer>
-
-
-    <!-- FLOATING WHATSAPP BUTTON -->
-    <a href="https://wa.me/94713042732"
-       class="whatsapp-float"
-       target="_blank"
-       rel="noopener"
-       aria-label="Contact Navodya Tube Wells on WhatsApp">
-        ☎ WhatsApp
+    }
+</style>
+
+</head><body><header>
+    <div class="container navbar">    <a href="./index.html" class="brand">
+        <img src="./logo.png" alt="Navodya Tube Wells Logo">
+        <span>
+            NAVODYA
+            <small>TUBE WELLS</small>
+        </span>
     </a>
 
+    <button class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+        ☰
+    </button>
 
-    <!-- JAVASCRIPT -->
-    <script>
-        const menuToggle = document.getElementById("menuToggle");
-        const navLinks = document.getElementById("navLinks");
+    <nav class="nav-links" id="navLinks">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./services.html">Services</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./contact.html" class="contact-link">Contact Us</a>
+    </nav>
 
-        menuToggle.addEventListener("click", function () {
-            const isOpen = navLinks.classList.toggle("active");
+</div>
 
-            menuToggle.setAttribute("aria-expanded", isOpen);
-            menuToggle.textContent = isOpen ? "✕" : "☰";
+</header><main><!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+
+            <span class="hero-label">💧 WATER SOLUTIONS YOU CAN TRUST</span>
+
+            <h1>
+                Reliable Water Starts
+                <span>Underground.</span>
+            </h1>
+
+            <p>
+                Tube well drilling, water pump installation and water
+                system services for homes, farms and businesses in
+                Katugastota and surrounding areas.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://wa.me/94713042732"
+                   class="btn btn-primary"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    💬 WhatsApp Us
+                </a>
+
+                <a href="tel:+94766787882" class="btn btn-outline">
+                    ☎ Call Now
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+    <div class="container trust-grid">
+
+        <div class="trust-item">
+            <strong>💧 Water Solutions</strong>
+            <span>Drilling and water systems</span>
+        </div>
+
+        <div class="trust-item">
+            <strong>🔧 Pump Services</strong>
+            <span>Installation and support</span>
+        </div>
+
+        <div class="trust-item">
+            <strong>📍 Katugastota, Kandy</strong>
+            <span>Serving surrounding areas</span>
+        </div>
+
+    </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">WHAT WE DO</span>
+            <h2>Complete Tube Well Services</h2>
+            <p>
+                Explore our tube well drilling, pump installation
+                and water system services.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <article class="service-card">
+                <div class="service-icon">🚜</div>
+                <h3>Tube Well Drilling</h3>
+                <p>
+                    Tube well drilling solutions for residential,
+                    agricultural and other water supply needs.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">💧</div>
+                <h3>Water Pump Installation</h3>
+                <p>
+                    Water pump installation solutions designed
+                    around your water supply requirements.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Water System Services</h3>
+                <p>
+                    Assistance with water system setup,
+                    maintenance inquiries and pump-related needs.
+                </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT PHOTOS -->
+<section class="gallery-section" id="projects">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">OUR WORK</span>
+            <h2>Drilling & Water Solutions</h2>
+            <p>
+                Explore tube well drilling and water pump images
+                from Navodya Tube Wells.
+            </p>
+        </div>
+
+        <div class="gallery-grid">
+
+            <article class="gallery-card">
+                <img
+                    src="./navodya-drilling-1.jpg"
+                    alt="Tube well drilling equipment"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+                    <h3>Tube Well Drilling</h3>
+                    <p>
+                        Drilling solutions for your water supply
+                        requirements.
+                    </p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <img
+                    src="./navodya-water-pump-1.jpg"
+                    alt="Water pump installation equipment"
+                    loading="lazy">
+
+                <div class="gallery-caption">
+                    <h3>Water Pump Solutions</h3>
+                    <p>
+                        Water pump equipment and installation
+                        solutions for your needs.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container about-grid">
+
+        <div class="about-content">
+            <span class="eyebrow">ABOUT NAVODYA</span>
+
+            <h2>Your Water Solution Starts Here</h2>
+
+            <p>
+                Navodya Tube Wells provides tube well drilling
+                and water pump solutions in Katugastota, Kandy,
+                Sri Lanka.
+            </p>
+
+            <p>
+                Whether you are planning a new water supply
+                project or looking for pump installation
+                assistance, contact us to discuss your
+                requirements.
+            </p>
+
+            <ul class="about-list">
+                <li>Tube well drilling inquiries</li>
+                <li>Water pump installation inquiries</li>
+                <li>Water system solutions</li>
+                <li>Service inquiries in surrounding areas</li>
+            </ul>
+
+            <a href="./about.html" class="btn btn-primary">
+                Learn More About Us →
+            </a>
+        </div>
+
+        <div class="about-visual">
+            <img
+                src="./navodya-drilling-1.jpg"
+                alt="Navodya Tube Wells drilling equipment"
+                loading="lazy">
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="cta">
+    <div class="container">
+
+        <h2>Looking for a Water Solution?</h2>
+
+        <p>
+            Contact Navodya Tube Wells to discuss your tube well
+            drilling or water pump installation requirements.
+        </p>
+
+        <div class="hero-buttons" style="justify-content:center;">
+
+            <a href="https://wa.me/94713042732"
+               class="btn btn-primary"
+               target="_blank"
+               rel="noopener noreferrer">
+                💬 Chat on WhatsApp
+            </a>
+
+            <a href="./contact.html" class="btn btn-outline">
+                Contact Us →
+            </a>
+
+        </div>
+    </div>
+</section>
+
+</main><!-- FOOTER --><footer>
+    <div class="container">    <div class="footer-grid">
+
+        <div>
+            <div class="footer-brand">NAVODYA TUBE WELLS</div>
+            <p>
+                Tube well drilling, water pump installation and
+                water system services in Katugastota, Kandy,
+                Sri Lanka.
+            </p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contact Information</h3>
+            <ul>
+                <li>📍 Katugastota, Kandy</li>
+                <li>
+                    ☎ <a href="tel:+94766787882">076 678 7882</a>
+                </li>
+                <li>
+                    ☎ <a href="tel:+94779252415">077 925 2415</a>
+                </li>
+                <li>
+                    WhatsApp:
+                    <a href="https://wa.me/94713042732"
+                       target="_blank"
+                       rel="noopener noreferrer">071 304 2732</a>
+                </li>
+                <li>
+                    WhatsApp:
+                    <a href="https://wa.me/94783042732"
+                       target="_blank"
+                       rel="noopener noreferrer">078 304 2732</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © <span id="currentYear"></span>
+        Navodya Tube Wells. All rights reserved.
+    </div>
+
+</div>
+
+</footer><!-- FLOATING WHATSAPP --><a href="https://wa.me/94713042732"
+class="whatsapp-float"
+target="_blank"
+rel="noopener noreferrer"
+aria-label="Contact Navodya Tube Wells on WhatsApp">
+☎ WhatsApp
+</a>
+
+<!-- JAVASCRIPT --><script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+        const isOpen = navLinks.classList.toggle("active");
+
+        menuToggle.setAttribute("aria-expanded", isOpen);
+        menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+
+    document.querySelectorAll("#navLinks a").forEach(function (link) {
+        link.addEventListener("click", function () {
+            navLinks.classList.remove("active");
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.textContent = "☰";
         });
+    });
 
-        document.querySelectorAll("#navLinks a").forEach(function (link) {
-            link.addEventListener("click", function () {
-                navLinks.classList.remove("active");
-                menuToggle.setAttribute("aria-expanded", "false");
-                menuToggle.textContent = "☰";
-            });
-        });
-
-        document.getElementById("currentYear").textContent =
-            new Date().getFullYear();
-    </script>
-
-</body>
+    document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+</script></body>
 </html>
